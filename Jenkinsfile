@@ -1,7 +1,7 @@
 pipeline {
     agent any
      tools {
-            jdk 'Amazon-Corretto-17'
+            jdk 'Java_Home'
         }
     stages {
         stage('Checkout') {
